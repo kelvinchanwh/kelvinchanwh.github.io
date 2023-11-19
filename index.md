@@ -22,13 +22,13 @@ I believe that improving language models' ability to handle code-switching is cr
 
 I am committed to using my NLP expertise to make a positive impact on society. In my free time, I volunteer my skills to build NLP applications for non-profit organizations, helping them optimize their operations and reach a wider audience. I believe that technology, when used responsibly, can empower individuals and communities to achieve their goals and make the world a better place.
 
-## Projects
+<!-- ## Projects
 
 1. F.Bar, J.Doe: Effects of having a placeholder of a name
 
 ---
 
-2. S.Holmes, J.Watson: Consequences of living with a sociopath in London
+2. S.Holmes, J.Watson: Consequences of living with a sociopath in London -->
 
 ## Contact
 > <img src="logo-linkedin.png" href="https://linkedin.com/in/kelvinchanwh" class="contact-logo"> 

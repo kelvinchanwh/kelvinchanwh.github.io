@@ -19,8 +19,8 @@ sass:
 nav:
  - name: "About"
    link: "/"
- - name: "Projects"
-   link: "#projects"
+#  - name: "Projects"
+#    link: "#projects"
  - name: "Resume"
    link: "Kelvin_Chan_CV.pdf"
  - name: "Contact"
