@@ -1,0 +1,24 @@
+{
+  "name": "website",
+  "version": "0.0.1",
+  "description": "Kelvin Chan's Website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "jekyll serve",
+    "predeploy": "JEKYLL_ENV=production jekyll build",
+    "deploy": "gh-pages -d _site"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelvinchanwh/website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kelvinchanwh/website/issues"
+  },
+  "homepage": "https://github.com/kelvinchanwh/website#readme",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
