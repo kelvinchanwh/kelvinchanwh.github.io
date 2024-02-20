@@ -17,7 +17,7 @@ body {
 }
 a {
     text-decoration: none;
-    color: $accent;
+    color: $dark-accent;
 }
 a:hover {
     text-decoration: underline;
@@ -28,6 +28,16 @@ hr {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
+
+.highlight pre{
+    white-space: pre-wrap;
+    background: $superlight-accent;
+    word-wrap: break-word;
+    box-decoration-break: clone;
+    padding: .1rem .3rem .2rem;
+    border-radius: .2rem;
+}
+
 
 /*
  * Navbar
@@ -97,6 +107,14 @@ hr {
     // vertical-align: middle;
 }
 
+/* Image */
+.half-img{
+    max-width: 45%;
+}
+
+.third-img{
+    max-width: 30%;
+}
 
 /* Mobile */
 

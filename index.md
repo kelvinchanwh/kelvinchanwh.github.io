@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<img class="profile-picture" src="kelvinchanwh-profilepic.jpg">
+<img class="profile-picture" src="images/kelvinchanwh-profilepic.jpg">
 <br>
 # Kelvin Chan
 <b> Data Scientist @ Shell | Machine Learning (NLP) Enthusiast </b>
@@ -22,18 +22,13 @@ I believe that improving language models' ability to handle code-switching is cr
 
 I am committed to using my NLP expertise to make a positive impact on society. In my free time, I volunteer my skills to build NLP applications for non-profit organizations, helping them optimize their operations and reach a wider audience. I believe that technology, when used responsibly, can empower individuals and communities to achieve their goals and make the world a better place.
 
-<!-- ## Projects
-
-1. F.Bar, J.Doe: Effects of having a placeholder of a name
-
----
-
-2. S.Holmes, J.Watson: Consequences of living with a sociopath in London -->
+## Projects
+<a href="./projects/airbnb-analysis.html"><img src="./images/projects-airbnb-analysis.png" class="third-img" alt="How I find the best AirBnB as an NLP Data Scientist"> </a>
 
 ## Contact
-> <img src="logo-linkedin.png" href="https://linkedin.com/in/kelvinchanwh" class="contact-logo"> 
+> <a href="https://linkedin.com/in/kelvinchanwh"><img src="images/logo-linkedin.png" class="contact-logo"></a>
 [LinkedIn](https://linkedin.com/in/kelvinchanwh) <br><br>
-> <img src="logo-github.png" href="https://github.com/kelvinchanwh" class="contact-logo"> 
+> <a href="https://github.com/kelvinchanwh"><img src="images/logo-github.png" class="contact-logo"> </a>
 [GitHub](https://github.com/kelvinchanwh) <br><br>
-> <img src="logo-email.png" href="mailto:kelvin@kelvinchanwh.com" class="contact-logo"> 
+> <a href="mailto:kelvin@kelvinchanwh.com"><img src="images/logo-email.png" class="contact-logo"> </a>
 [Email](mailto:kelvin@kelvinchanwh.com) <br>

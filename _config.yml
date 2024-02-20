@@ -3,8 +3,11 @@ url: "https://kelvinchanwh.com"
 # baseurl: "https://kelvinchanwh.com"
 
 markdown: kramdown
-ins_logo: "./kelvinchanwh-logo-clear.png"
-favicon: "./kelvinchanwh-logo-filled.png"
+ins_logo: "/images/kelvinchanwh-logo-clear.png"
+favicon: "/images/kelvinchanwh-logo-filled.png"
+highlighter: rouge
+kramdown:
+  input: GFM
 
 tracking_id: #
 
@@ -19,8 +22,8 @@ sass:
 nav:
  - name: "About"
    link: "/"
-#  - name: "Projects"
-#    link: "#projects"
+ - name: "Projects"
+   link: "#projects"
  - name: "Curriculum Vitae"
    link: "Kelvin_Chan_CV.pdf"
  - name: "Contact"
