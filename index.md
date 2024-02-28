@@ -22,8 +22,8 @@ I believe that improving language models' ability to handle code-switching is cr
 
 I am committed to using my NLP expertise to make a positive impact on society. In my free time, I volunteer my skills to build NLP applications for non-profit organizations, helping them optimize their operations and reach a wider audience. I believe that technology, when used responsibly, can empower individuals and communities to achieve their goals and make the world a better place.
 
-## Projects
-<a href="./projects/airbnb-analysis.html"><img src="./images/projects-airbnb-analysis.png" class="third-img" alt="How I find the best AirBnB as an NLP Data Scientist"> </a>
+<!-- ## Projects
+<a href="./projects/airbnb-analysis.html"><img src="./images/projects-airbnb-analysis.png" class="third-img" alt="How I find the best AirBnB as an NLP Data Scientist"> </a> -->
 
 ## Contact
 > <a href="https://linkedin.com/in/kelvinchanwh"><img src="images/logo-linkedin.png" class="contact-logo"></a>
