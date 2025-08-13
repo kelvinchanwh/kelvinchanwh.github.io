@@ -1,4 +1,4 @@
-`# Researcher
+# Researcher
 
 ### [Demo Website](http://ankitsultana.com/researcher)
 
