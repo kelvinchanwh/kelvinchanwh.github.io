@@ -40,4 +40,7 @@ Note: Uses Bundler for Ruby gems; ensure Ruby and Bundler are installed.
 - [index.md](../index.md): Home page
 - [projects/airbnb-analysis.md](../projects/airbnb-analysis.md): Example project page
 
+## Development Notes
+- When doing work with APIs, always read the API documentation carefully and handle errors gracefully. Only use the latest version of the API and ensure that you are following best practices for authentication and rate limiting.
+
 Avoid duplicating content from README.md; refer to it for theme-specific instructions.

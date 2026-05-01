@@ -11,6 +11,8 @@ kramdown:
 
 tracking_id: #
 
+google_maps_api_key: !ENV 'GOOGLE_MAPS_API_KEY'
+
 footer: yes
 footer_url: "https://linkedin.com/in/kelvinchanwh"
 footer_text: "Kelvin Chan. "
@@ -24,9 +26,11 @@ nav:
    link: "/"
 #  - name: "Projects"
 #    link: "#projects"
+ - name: "Meetup Map"
+   link: "/meetup-map.html"
  - name: "Curriculum Vitae"
    link: "Kelvin_Chan_CV.pdf"
  - name: "Contact"
    link: "#contact"
 
-plugins: ["jekyll-include-cache"]
+plugins: ["jekyll-include-cache", "jekyll-environment-variables"]

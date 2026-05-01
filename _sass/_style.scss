@@ -168,5 +168,121 @@ hr {
 	}
 }
 
+.meetup-map-panel {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.meetup-form,
+.meetup-side {
+    flex: 1 1 320px;
+}
+
+.meetup-form h2 {
+    margin-top: 0;
+}
+
+.location-row,
+.field-row {
+    margin-bottom: 1rem;
+}
+
+.meetup-form label {
+    display: block;
+    margin-bottom: 0.35rem;
+    font-weight: 700;
+}
+
+.meetup-form input,
+.meetup-form select {
+    width: 100%;
+    padding: 0.85rem;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.35rem;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.button-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1rem;
+}
+
+.meetup-form button {
+    padding: 0.85rem 1rem;
+    border: none;
+    border-radius: 0.35rem;
+    background: $dark-accent;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.button-secondary {
+    background: $mid-accent;
+}
+
+.meetup-map {
+    width: 100%;
+    min-height: 420px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 0.35rem;
+    overflow: hidden;
+    display: block;
+}
+
+.meetup-results {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+}
+
+.meetup-results h3 {
+    margin-top: 0;
+}
+
+.meetup-results .error {
+    color: #b00020;
+}
+
+.meetup-marker {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.meetup-marker-location {
+    background: var(--origin-color, #d93025);
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.meetup-marker-best-place {
+    width: 30px;
+    height: 30px;
+    border-radius: 0;
+    background: transparent;
+    color: #fbbc04;
+    font-size: 26px;
+    box-shadow: none;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 800px) {
+    .meetup-map-panel {
+        flex-direction: column;
+    }
+}
+
 @import "typography";
 @import "tables";

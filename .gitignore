@@ -3,3 +3,20 @@ _site
 .sass-cache/
 .DS_Store
 .jekyll-cache
+
+# Environment variables
+.env
+
+# JavaScript dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log*
+.eslintcache
+.cache
+dist/
+build/
