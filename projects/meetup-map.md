@@ -7,7 +7,7 @@ description: Find the best halfway meeting point and points of interest for mult
 
 ## Meetup Map
 
-Enter multiple starting locations, choose the category of interest, select a transport mode, and optimize by cost, distance, time, or recommended.
+Enter multiple starting locations, choose the category of interest, and select a transport mode. The planner will recommend the best meetup area using travel-time-first optimization, then rank the top options in that area.
 
 <div class="meetup-map-panel">
   <form id="meetup-form" class="meetup-form" aria-labelledby="meetup-form-title">
@@ -50,6 +50,7 @@ Enter multiple starting locations, choose the category of interest, select a tra
     <div class="field-row">
       <label for="optimization-strategy">Optimization strategy</label>
       <select id="optimization-strategy" aria-label="Optimization strategy">
+        <option value="travel_time_first" selected>Travel time first</option>
         <option value="distance">Distance</option>
         <option value="time">Travel time</option>
         <option value="cost">Cost</option>
